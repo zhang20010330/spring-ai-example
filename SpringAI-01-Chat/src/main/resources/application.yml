@@ -1,0 +1,14 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+    chat:
+      client:
+        enabled: true
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
